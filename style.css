@@ -1,0 +1,157 @@
+/* 
+--- 01 TYPOGRAPHY SYSTEM
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font weight 
+Default: 400
+
+- Line heights
+Default: 1
+
+--- 02 COLORS
+- Primary: #6acf6a
+- Tints: #1eb81e
+- Shades:
+- Accents:
+- Greys: #555  
+
+--- 05 SHADOWS
+
+--- 06 BORDER-RADIUS
+
+--- 07 WHITESPACE
+- Space system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+/* *************************************** */
+
+/* ***************HERO SECTION************ */
+.hero-sect {
+  max-width: 150rem;
+  background-image: linear-gradient(#2b2525b9, #3d39399f), url(img/hero-bg.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 2rem;
+  height: 100vh;
+}
+
+.hero-body {
+  text-align: center;
+  margin-top: 7rem;
+}
+
+/* *********************TESTIMONY SECTION****************** */
+.testimony-box {
+  max-width: 150rem;
+  background-color: #d2dbdd;
+  text-align: center;
+  padding: 5rem 0;
+  margin-bottom: 5rem;
+}
+
+.testimony-text {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.identity {
+  font-size: 1.5rem;
+}
+
+/* ***********************UPCOMING EVENTS******************** */
+.upcoming {
+  max-width: 150rem;
+  padding: 3rem;
+}
+
+.up-head {
+  margin-bottom: 5rem;
+}
+
+.learn {
+  display: inline-block;
+}
+
+.event-description-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+}
+
+.event {
+  text-align: center;
+}
+
+.desc-img {
+  width: 95%;
+  border-radius: 5px;
+  box-shadow: 10px 10px 1px #ebe7e7;
+  margin-bottom: 3rem;
+}
+
+.desc-head {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+/* ***********************EXPLORE SECTION*********************** */
+.explore {
+  max-width: 150rem;
+  background-image: linear-gradient(#2b2525b9, #3d39399f),
+    url(img/section-bg-img.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 8rem 3rem 5rem 50%;
+  margin: 5rem 0 8rem;
+}
+
+.explore-heading {
+  font-size: 3.2rem;
+}
+
+.explore-btn {
+  margin: 3rem 0;
+}
+
+/* *****************UPCOMING TOUR SECTION************ */
+.tour {
+  max-width: 150rem;
+  padding: 0 2rem;
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 8rem;
+}
+
+.tour-head-text {
+  flex: 2;
+}
+
+.tour-heading {
+  text-align: left;
+}
+
+.tour-text {
+  margin-bottom: 5rem;
+}
+
+.t-flex {
+  flex: 3;
+}
+
+.tour-imgs-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.tour-img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.tour-img-boxx {
+  display: grid;
+  gap: 1rem;
+}

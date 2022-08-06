@@ -1,0 +1,67 @@
+.about {
+  max-width: 150rem;
+  background-image: linear-gradient(#64616170, #63606052),
+    url(img/about-bg-5.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 60vh;
+  padding: 2rem;
+}
+
+.about-text {
+  text-align: center;
+  margin: 5rem 0;
+}
+
+/* ***********************OUR MISSION SECTION************************** */
+.mission {
+  max-width: 150rem;
+  padding: 8rem 5rem;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.mission-flex {
+  display: flex;
+  gap: 3rem;
+}
+
+.miss-text {
+  font-size: 1.7rem;
+  color: #777;
+}
+
+.mission-img {
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 10px 10px 1px #ebe7e7;
+}
+
+/* **********************EXPRIENCE AND VALUES SECTION*********************** */
+.extra-value {
+  max-width: 150rem;
+  padding: 0 5rem;
+  display: flex;
+  gap: 5rem;
+  margin-bottom: 5rem;
+}
+
+.val {
+  display: flex;
+  gap: 1rem;
+  align-items: baseline;
+}
+
+.line-3 {
+  height: 3px;
+  width: 15px;
+  background-color: #1eb81e;
+}
+
+.val-text {
+  font-size: 1.6rem;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
